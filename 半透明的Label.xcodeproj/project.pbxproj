@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CBDAF561D7D6588001C922A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDAF551D7D6588001C922A /* main.m */; };
+		0CBDAF591D7D6588001C922A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDAF581D7D6588001C922A /* AppDelegate.m */; };
+		0CBDAF5C1D7D6588001C922A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDAF5B1D7D6588001C922A /* ViewController.m */; };
+		0CBDAF5F1D7D6588001C922A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBDAF5D1D7D6588001C922A /* Main.storyboard */; };
+		0CBDAF611D7D6588001C922A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBDAF601D7D6588001C922A /* Assets.xcassets */; };
+		0CBDAF641D7D6588001C922A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBDAF621D7D6588001C922A /* LaunchScreen.storyboard */; };
+		0CBDAF6F1D7D6588001C922A /* ____LabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDAF6E1D7D6588001C922A /* ____LabelTests.m */; };
+		0CBDAF7A1D7D6588001C922A /* ____LabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBDAF791D7D6588001C922A /* ____LabelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CBDAF6B1D7D6588001C922A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CBDAF491D7D6588001C922A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CBDAF501D7D6588001C922A;
+			remoteInfo = "半透明的Label";
+		};
+		0CBDAF761D7D6588001C922A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CBDAF491D7D6588001C922A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CBDAF501D7D6588001C922A;
+			remoteInfo = "半透明的Label";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBDAF511D7D6588001C922A /* 半透明的Label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "半透明的Label.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBDAF551D7D6588001C922A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CBDAF571D7D6588001C922A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CBDAF581D7D6588001C922A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CBDAF5A1D7D6588001C922A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CBDAF5B1D7D6588001C922A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CBDAF5E1D7D6588001C922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CBDAF601D7D6588001C922A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CBDAF631D7D6588001C922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CBDAF651D7D6588001C922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBDAF6A1D7D6588001C922A /* 半透明的LabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "半透明的LabelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBDAF6E1D7D6588001C922A /* ____LabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____LabelTests.m"; sourceTree = "<group>"; };
+		0CBDAF701D7D6588001C922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBDAF751D7D6588001C922A /* 半透明的LabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "半透明的LabelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBDAF791D7D6588001C922A /* ____LabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____LabelUITests.m"; sourceTree = "<group>"; };
+		0CBDAF7B1D7D6588001C922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CBDAF4E1D7D6588001C922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CBDAF671D7D6588001C922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CBDAF721D7D6588001C922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBDAF481D7D6588001C922A = {
+			isa = PBXGroup;
+			children = (
+				0CBDAF531D7D6588001C922A /* 半透明的Label */,
+				0CBDAF6D1D7D6588001C922A /* 半透明的LabelTests */,
+				0CBDAF781D7D6588001C922A /* 半透明的LabelUITests */,
+				0CBDAF521D7D6588001C922A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CBDAF521D7D6588001C922A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CBDAF511D7D6588001C922A /* 半透明的Label.app */,
+				0CBDAF6A1D7D6588001C922A /* 半透明的LabelTests.xctest */,
+				0CBDAF751D7D6588001C922A /* 半透明的LabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CBDAF531D7D6588001C922A /* 半透明的Label */ = {
+			isa = PBXGroup;
+			children = (
+				0CBDAF571D7D6588001C922A /* AppDelegate.h */,
+				0CBDAF581D7D6588001C922A /* AppDelegate.m */,
+				0CBDAF5A1D7D6588001C922A /* ViewController.h */,
+				0CBDAF5B1D7D6588001C922A /* ViewController.m */,
+				0CBDAF5D1D7D6588001C922A /* Main.storyboard */,
+				0CBDAF601D7D6588001C922A /* Assets.xcassets */,
+				0CBDAF621D7D6588001C922A /* LaunchScreen.storyboard */,
+				0CBDAF651D7D6588001C922A /* Info.plist */,
+				0CBDAF541D7D6588001C922A /* Supporting Files */,
+			);
+			path = "半透明的Label";
+			sourceTree = "<group>";
+		};
+		0CBDAF541D7D6588001C922A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CBDAF551D7D6588001C922A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CBDAF6D1D7D6588001C922A /* 半透明的LabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CBDAF6E1D7D6588001C922A /* ____LabelTests.m */,
+				0CBDAF701D7D6588001C922A /* Info.plist */,
+			);
+			path = "半透明的LabelTests";
+			sourceTree = "<group>";
+		};
+		0CBDAF781D7D6588001C922A /* 半透明的LabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CBDAF791D7D6588001C922A /* ____LabelUITests.m */,
+				0CBDAF7B1D7D6588001C922A /* Info.plist */,
+			);
+			path = "半透明的LabelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CBDAF501D7D6588001C922A /* 半透明的Label */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBDAF7E1D7D6588001C922A /* Build configuration list for PBXNativeTarget "半透明的Label" */;
+			buildPhases = (
+				0CBDAF4D1D7D6588001C922A /* Sources */,
+				0CBDAF4E1D7D6588001C922A /* Frameworks */,
+				0CBDAF4F1D7D6588001C922A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "半透明的Label";
+			productName = "半透明的Label";
+			productReference = 0CBDAF511D7D6588001C922A /* 半透明的Label.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CBDAF691D7D6588001C922A /* 半透明的LabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBDAF811D7D6588001C922A /* Build configuration list for PBXNativeTarget "半透明的LabelTests" */;
+			buildPhases = (
+				0CBDAF661D7D6588001C922A /* Sources */,
+				0CBDAF671D7D6588001C922A /* Frameworks */,
+				0CBDAF681D7D6588001C922A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CBDAF6C1D7D6588001C922A /* PBXTargetDependency */,
+			);
+			name = "半透明的LabelTests";
+			productName = "半透明的LabelTests";
+			productReference = 0CBDAF6A1D7D6588001C922A /* 半透明的LabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CBDAF741D7D6588001C922A /* 半透明的LabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBDAF841D7D6588001C922A /* Build configuration list for PBXNativeTarget "半透明的LabelUITests" */;
+			buildPhases = (
+				0CBDAF711D7D6588001C922A /* Sources */,
+				0CBDAF721D7D6588001C922A /* Frameworks */,
+				0CBDAF731D7D6588001C922A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CBDAF771D7D6588001C922A /* PBXTargetDependency */,
+			);
+			name = "半透明的LabelUITests";
+			productName = "半透明的LabelUITests";
+			productReference = 0CBDAF751D7D6588001C922A /* 半透明的LabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CBDAF491D7D6588001C922A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李庚达";
+				TargetAttributes = {
+					0CBDAF501D7D6588001C922A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0CBDAF691D7D6588001C922A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0CBDAF501D7D6588001C922A;
+					};
+					0CBDAF741D7D6588001C922A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0CBDAF501D7D6588001C922A;
+					};
+				};
+			};
+			buildConfigurationList = 0CBDAF4C1D7D6588001C922A /* Build configuration list for PBXProject "半透明的Label" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CBDAF481D7D6588001C922A;
+			productRefGroup = 0CBDAF521D7D6588001C922A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CBDAF501D7D6588001C922A /* 半透明的Label */,
+				0CBDAF691D7D6588001C922A /* 半透明的LabelTests */,
+				0CBDAF741D7D6588001C922A /* 半透明的LabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CBDAF4F1D7D6588001C922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBDAF641D7D6588001C922A /* LaunchScreen.storyboard in Resources */,
+				0CBDAF611D7D6588001C922A /* Assets.xcassets in Resources */,
+				0CBDAF5F1D7D6588001C922A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CBDAF681D7D6588001C922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CBDAF731D7D6588001C922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CBDAF4D1D7D6588001C922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBDAF5C1D7D6588001C922A /* ViewController.m in Sources */,
+				0CBDAF591D7D6588001C922A /* AppDelegate.m in Sources */,
+				0CBDAF561D7D6588001C922A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CBDAF661D7D6588001C922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBDAF6F1D7D6588001C922A /* ____LabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CBDAF711D7D6588001C922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBDAF7A1D7D6588001C922A /* ____LabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CBDAF6C1D7D6588001C922A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CBDAF501D7D6588001C922A /* 半透明的Label */;
+			targetProxy = 0CBDAF6B1D7D6588001C922A /* PBXContainerItemProxy */;
+		};
+		0CBDAF771D7D6588001C922A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CBDAF501D7D6588001C922A /* 半透明的Label */;
+			targetProxy = 0CBDAF761D7D6588001C922A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CBDAF5D1D7D6588001C922A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CBDAF5E1D7D6588001C922A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CBDAF621D7D6588001C922A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CBDAF631D7D6588001C922A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CBDAF7C1D7D6588001C922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CBDAF7D1D7D6588001C922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CBDAF7F1D7D6588001C922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "半透明的Label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saber.----Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CBDAF801D7D6588001C922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "半透明的Label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saber.----Label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0CBDAF821D7D6588001C922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "半透明的LabelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saber.----LabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/半透明的Label.app/半透明的Label";
+			};
+			name = Debug;
+		};
+		0CBDAF831D7D6588001C922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "半透明的LabelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saber.----LabelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/半透明的Label.app/半透明的Label";
+			};
+			name = Release;
+		};
+		0CBDAF851D7D6588001C922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "半透明的LabelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saber.----LabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "半透明的Label";
+			};
+			name = Debug;
+		};
+		0CBDAF861D7D6588001C922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "半透明的LabelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saber.----LabelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "半透明的Label";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CBDAF4C1D7D6588001C922A /* Build configuration list for PBXProject "半透明的Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBDAF7C1D7D6588001C922A /* Debug */,
+				0CBDAF7D1D7D6588001C922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CBDAF7E1D7D6588001C922A /* Build configuration list for PBXNativeTarget "半透明的Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBDAF7F1D7D6588001C922A /* Debug */,
+				0CBDAF801D7D6588001C922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CBDAF811D7D6588001C922A /* Build configuration list for PBXNativeTarget "半透明的LabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBDAF821D7D6588001C922A /* Debug */,
+				0CBDAF831D7D6588001C922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CBDAF841D7D6588001C922A /* Build configuration list for PBXNativeTarget "半透明的LabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBDAF851D7D6588001C922A /* Debug */,
+				0CBDAF861D7D6588001C922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CBDAF491D7D6588001C922A /* Project object */;
+}
